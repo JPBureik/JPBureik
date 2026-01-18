@@ -1,16 +1,57 @@
-## Hi there 👋
+# Hi, I'm Jan-Philipp (“JP”) Bureik 👋
 
-<!--
-**JPBureik/JPBureik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a research software engineer (PhD in quantum physics) focused on **quantitative finance / data-intensive research**:
+  **robust statistical inference**, **higher-order dependence**, **streaming & observability**, and **performance-critical Python** (C/C++/Cython when needed).
 
-Here are some ideas to get you started:
+- 📍 Paris, France
+- 🧰 Python (advanced) · C/C++ (applied) · SQL · Linux
+- 🔭 Interests: market microstructure & time series, heavy tails/outliers, UQ, profiling-led optimization
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## Featured projects
+
+### 🔥 `crash-sensitivity-factor` — crash-sensitivity signals from higher-order co-moments (OSS)
+Python library quantifying stock crash sensitivity via coskewness/cokurtosis betas with the market.
+- Robust estimation: winsorization, MAD scaling, ridge shrinkage
+- 95% test coverage, strict mypy, CI across Python 3.10–3.13
+- Runnable synthetic demo (no external data needed)
+
+➡️ https://github.com/JPBureik/crash-sensitivity-factor
+
+### 🧭 `experiment-monitoring` — monitoring toolkit + turnkey deployment (OSS)
+Driver-based Python monitoring library with calibration + spike-filter utilities, packaged with deployment scripts and a runbook.
+- Designed for long-running operation (dashboards/alerts/retention ergonomics)
+- Easy to extend via fully typed interfaces/ABCs
+
+➡️ https://github.com/JPBureik/experiment-monitoring
+
+### ⚡ Performance work (C/Cython)
+Optimized compiled components for hot loops and high-throughput queries, with stable Python APIs and profiling-driven optimization.
+
+*(Some work is internal; happy to discuss design + benchmarks.)*
+
+---
+
+## What I value in engineering
+- Reproducible results, clear APIs, tests + CI
+- Type safety as documentation (strict mypy)
+- Profiling before optimizing
+- Minimal operational burden ("someone else can run this")
+- Careful handling of edge cases (missing data, outliers, stability)
+
+---
+
+## Toolbox
+- **Stats/data:** NumPy, pandas, SciPy, statsmodels, scikit-learn
+- **Time series / monitoring:** InfluxDB, Grafana
+- **Perf:** Cython, vectorization, multiprocessing
+- **Systems:** Linux, systemd, MySQL, Git, CMake
+
+---
+
+## Open to roles
+I’m interested in **quant dev / quant research engineering** and **research software engineering** roles working on:
+data systems, streaming/time-series analytics, robust inference, and performance.
+
+📫 **Email:** jp.bureik@protonmail.com
