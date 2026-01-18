@@ -26,10 +26,10 @@ Driver-based Python monitoring library with calibration + spike-filter utilities
 
 ➡️ https://github.com/JPBureik/experiment-monitoring
 
-### ⚡ Performance work (C/Cython)
-Optimized compiled components for hot loops and high-throughput queries, with stable Python APIs and profiling-driven optimization.
+### ⚡ Performance work (Cython)
+Optimized compiled components for hot loops, with stable Python APIs and profiling-driven optimization.
 
-*(Some work is internal; happy to discuss design + benchmarks.)*
+➡️ https://github.com/JPBureik/fast-histogram-lookup
 
 ---
 
