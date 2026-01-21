@@ -26,8 +26,18 @@ Driver-based Python monitoring library with calibration + spike-filter utilities
 
 ➡️ https://github.com/JPBureik/experiment-monitoring
 
-### ⚡ Performance work (Cython)
-Optimized compiled components for hot loops, with stable Python APIs and profiling-driven optimization.
+### ⚡ Performance work
+Optimized components for compute-intensive workflows, with stable Python APIs.
+
+**`multiproc`** — CPU multiprocessing with real-time progress tracking (OSS)
+- Drop-in replacement for list comprehensions with automatic parallelization
+- Per-core progress bars via enlighten
+- 53 tests, strict mypy, CI across Python 3.11–3.14 + Linux/macOS/Windows
+
+➡️ https://github.com/JPBureik/Multiproc
+
+**`fast-histogram-lookup`** — Cython-optimized histogram operations
+- Compiled components for hot loops with profiling-driven optimization
 
 ➡️ https://github.com/JPBureik/fast-histogram-lookup
 
