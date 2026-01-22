@@ -29,7 +29,7 @@ Driver-based Python monitoring library with calibration + spike-filter utilities
 ### ⚡ Performance work
 Optimized components for compute-intensive workflows, with stable Python APIs.
 
-**`multiproc`** — CPU multiprocessing with real-time progress tracking (OSS)
+**`mpviz`** — CPU multiprocessing with real-time progress visualization (OSS)
 - Drop-in replacement for list comprehensions with automatic parallelization
 - Per-core progress bars via enlighten
 - 53 tests, strict mypy, CI across Python 3.11–3.14 + Linux/macOS/Windows
