@@ -34,7 +34,7 @@ Optimized components for compute-intensive workflows, with stable Python APIs.
 - Per-core progress bars via enlighten
 - 53 tests, strict mypy, CI across Python 3.11–3.14 + Linux/macOS/Windows
 
-➡️ https://github.com/JPBureik/Multiproc
+➡️ https://github.com/JPBureik/mpviz
 
 **`fast-histogram-lookup`** — Cython-optimized histogram operations
 - Compiled components for hot loops with profiling-driven optimization
