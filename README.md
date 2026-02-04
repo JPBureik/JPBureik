@@ -1,19 +1,19 @@
 # Hi, I'm Jan-Philipp (“JP”) Bureik 👋
 
-I'm a research software engineer (PhD in quantum physics) focused on **quantitative finance / data-intensive research**:
+I'm a quantitative software engineer (PhD in quantum physics) building production-grade Python libraries for **quantitative finance**:
   **robust statistical inference**, **higher-order dependence**, **streaming & observability**, and **performance-critical Python** (C/C++/Cython when needed).
 
 - 📍 Paris, France
 - 🧰 Python (advanced) · C/C++ (applied) · SQL · Linux
-- 🔭 Interests: market microstructure & time series, heavy tails/outliers, UQ, profiling-led optimization
+- 🔭 Interests: non-Gaussian statistics, higher-order moments, robust estimation under heavy tails, bootstrap resampling
 
 ---
 
 ## Featured projects
 
-### 🔥 `crash-sensitivity-factor` — crash-sensitivity signals from higher-order co-moments (OSS)
+### 🔥 `crash-sensitivity-factor` — rolling higher-order co-moment estimation on equity returns (OSS)
 Python library quantifying stock crash sensitivity via coskewness/cokurtosis betas with the market.
-- Robust estimation: winsorization, MAD scaling, ridge shrinkage
+- Rolling estimators with robust heavy-tail handling: winsorization, MAD scaling, ridge shrinkage
 - 95% test coverage, strict mypy, CI across Python 3.10–3.13
 - Runnable synthetic demo (no external data needed)
 
@@ -27,7 +27,7 @@ Driver-based Python monitoring library with calibration + spike-filter utilities
 ➡️ https://github.com/JPBureik/experiment-monitoring
 
 ### ⚡ Performance work
-Optimized components for compute-intensive workflows, with stable Python APIs.
+Optimized components for compute-intensive data analysis pipelines, with stable Python APIs.
 
 **`mpviz`** — CPU multiprocessing with real-time progress visualization (OSS)
 - Drop-in replacement for list comprehensions with automatic parallelization
@@ -36,32 +36,32 @@ Optimized components for compute-intensive workflows, with stable Python APIs.
 
 ➡️ https://github.com/JPBureik/mpviz
 
-**`fast-histogram-lookup`** — Cython-optimized histogram operations
-- Compiled components for hot loops with profiling-driven optimization
+**`fast-histogram-lookup`** — Cython kernel for large-scale correlation analysis
+- ~40x speedup over pure Python; profiling-driven optimization for compute-intensive statistical workflows
 
 ➡️ https://github.com/JPBureik/fast-histogram-lookup
 
 ---
 
 ## What I value in engineering
-- Reproducible results, clear APIs, tests + CI
+- Deterministic, reproducible outputs; clear APIs; tests + CI
 - Type safety as documentation (strict mypy)
 - Profiling before optimizing
 - Minimal operational burden ("someone else can run this")
-- Careful handling of edge cases (missing data, outliers, stability)
+- Careful handling of non-Gaussian data, outliers, and numerical stability
 
 ---
 
 ## Toolbox
-- **Stats/data:** NumPy, pandas, SciPy, statsmodels, scikit-learn
+- **Stats/data:** NumPy, pandas, SciPy, statsmodels, scikit-learn, boost-histogram
 - **Time series / monitoring:** InfluxDB, Grafana
-- **Perf:** Cython, vectorization, multiprocessing
+- **Perf:** Cython, Numba, vectorization, multiprocessing
 - **Systems:** Linux, systemd, MySQL, Git, CMake
 
 ---
 
 ## Open to roles
-I’m interested in **quant dev / quant research engineering** and **research software engineering** roles working on:
-data systems, streaming/time-series analytics, robust inference, and performance.
+I'm interested in **quant dev / quant research** roles working on:
+time-series analytics, statistical estimation, robust inference, and performance.
 
 📫 **Email:** jp.bureik@protonmail.com
