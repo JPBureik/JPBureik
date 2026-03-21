@@ -1,9 +1,9 @@
 # Hi, I'm Jan-Philipp (“JP”) Bureik 👋
 
-I'm a quantitative software engineer (PhD in quantum physics) building production-grade Python libraries for **quantitative finance**:
-  **robust statistical inference**, **higher-order dependence**, **streaming & observability**, and **performance-critical Python** (C/C++/Cython when needed).
+Researcher with a PhD in quantum physics, specialized in **heavy-tailed statistics**, **uncertainty quantification**, and **weak-signal detection**.
+Designs and implements statistical models for **quantitative finance**, with a track record in production-grade, profiling-optimized software that teams adopt and extend independently.
 
-- 📍 Paris, France
+- 📍 Paris / London
 - 🧰 Python (advanced) · C/C++ (applied) · SQL · Linux
 - 🔭 Interests: non-Gaussian statistics, higher-order moments, robust estimation under heavy tails, bootstrap resampling
 
@@ -43,7 +43,7 @@ Optimized components for compute-intensive data analysis pipelines, with stable 
 
 ---
 
-## What I value in engineering
+## How I work
 - Deterministic, reproducible outputs; clear APIs; tests + CI
 - Type safety as documentation (strict mypy)
 - Profiling before optimizing
@@ -61,7 +61,7 @@ Optimized components for compute-intensive data analysis pipelines, with stable 
 ---
 
 ## Open to roles
-I'm interested in **quant dev / quant research** roles working on:
-time-series analytics, statistical estimation, robust inference, and performance.
+I'm interested in **quant research / strats / quant dev** roles working on:
+statistical modeling, robust inference, and time-series analytics — with engineering depth when needed.
 
 📫 **Email:** jp.bureik@protonmail.com
